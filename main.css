@@ -1,0 +1,547 @@
+/*--- font styles ---*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ---------------
+    Common Styles
+---------------- */
+
+html{
+    background-color: black;
+}
+body {
+    max-width: 1600px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding-top: 50px;
+
+
+}
+
+/* ----Header styles------ */
+.common  {
+    max-width: 1321px;
+    height: ;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 33px 79px 0px 106px;
+    margin: 0 auto 130px;
+    border-radius: 5px ;
+
+}
+
+header {
+    width: 531px;
+    margin-top:78px ;
+}
+h1 {
+    line-height: 80px;
+    margin-top:0px;
+    margin-bottom: 20px;
+    height:;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+ p {
+    line-height: 26px;
+    width: 498px;
+    font-weight: 400px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+button.watch {
+    font-family:'Helvetica Neue';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+}
+.fa-greater-than {
+    margin-left: 10px;
+
+}
+
+.marcelo img{
+    width: 581px;
+    height: 100%;
+
+
+}
+
+/* End of header styles
+
+-----------------------------------------
+
+Bottom section styles */
+
+section.bottom {
+    margin-bottom: 130px;
+    background-color: white;
+    padding: 0px;
+    justify-content: space-between;
+    height: auto;
+}
+
+  nav {
+      text-align: center;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      border: ;
+      border-radius: 10px;
+      padding-top:;
+      width: 312px;
+      height: 312px;
+
+      background-color: black;
+   }
+
+  ul {
+    background-color: ;
+    padding:0px;
+
+
+
+  }
+  li  {
+    color: black;
+    font-family: Poppins;
+    font-weight:500;
+    font-size:20px;
+    background-color: white;
+    border-radius: 5px;
+    list-style: none;
+    padding: 17px 39px;
+    margin:30px;
+    line-height: 30px;
+  }
+
+  ul li:nth-child(3) {
+    background-color: #DD0000;
+  }
+  li a {
+    color: black;
+    text-decoration: none;
+  }
+
+ .matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+
+ }
+
+ .play-cards {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    position: relative;
+    color: black;
+    background-color: white;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+ .play-cards img {
+
+    width: 100%;
+    min-height: 175px;
+ }
+ .transfer button {
+    border: 1px solid black;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+  }
+  .transfer {
+    margin: 20px;
+  }
+  .play-cards h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .clock-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .comment-icon {
+    display: inline-block;
+    margin-left: 66px;
+    margin-right: 10px;
+
+  }
+  .view-all {
+    text-align: center;
+    display: none;
+  }
+
+ footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+
+    width: 1600px;
+ }
+
+  .goal {
+    display: inline-block;
+    font-size: 40px;
+    margin: 130px auto 50px ;
+  }
+
+
+  .policy {
+
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content:space-around;
+  }
+  footer a {
+    color: white;
+  }
+  .contact-us {
+    display: inline-block;
+
+  }
+  /*------------------------------- MEDIA QUERY FOR SMALL DEVICE(<=576PX)---------------------------------- */
+
+  @media screen and (max-width: 576px) {
+
+
+    .common {
+        max-width: 334px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 auto;
+        padding: 28px 38px 0px 38px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+     header {
+        width: 258px;
+        margin-top:28px;
+        text-align: center;
+    }
+    h1 {
+        line-height: 33px;
+        margin-top:0px;
+        margin-bottom: 8px;
+        font-size: 22px;
+        font-weight: 700;
+        width: 228px;
+    }
+    p {
+        text-align: center;
+        width: 258px;
+        line-height: 26px;
+        font-weight: 400px;
+        font-size: 14px;
+        margin-bottom: 16px;
+
+    }
+    .marcelo {
+        margin: 21px auto 0px;
+        padding: 0px;
+        width: 233px;
+        height: 255px;
+    }
+    .marcelo img {
+        width: 233px;
+        height:255px;
+     }
+
+    button.watch {
+    font-family:'Helvetica Neue';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 161px;
+    height: 40px;
+    }
+    /*------------------BOTTOM SECTION STYLES-----------------*/
+
+    .bottom {
+      margin-bottom: 24px;
+    }
+
+
+
+    /* Navigation bar styles */
+    nav {
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      padding:0px;
+      width: 100%;
+      margin:24px auto;
+      height: auto;
+      background-color: white;
+   }
+
+  ul {
+    width: 100%;
+    box-sizing: border-box ;
+    padding:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+
+  ul li:nth-of-type(1) {
+    font-family: 'Poppins';
+    width:210px;
+    background-color: ;
+    border: 1px solid lightgrey;
+    padding: 9px 18px;
+    font-weight:500;
+    font-size:20px;
+    border-radius: 5px;
+    list-style: none;
+    margin:auto;
+  }
+
+  ul li:nth-of-type(2) {
+
+    box-sizing: border-box  ;
+    width: 165px;
+    background-color: ;
+    border: 1px solid lightgrey;
+    padding: 9px 33px;
+    font-weight:500;
+    font-size:20px;
+    background-color: ;
+    border-radius: 5px;
+    list-style: none;
+    margin:16px auto;
+
+  }
+
+
+
+  ul li:nth-of-type(3) {
+    box-sizing: border-box;
+    width: 165px;
+    background-color: #DD0000;
+    border: 1px solid lightgrey;
+    padding: 9px 33px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight:500;
+
+    border-radius: 5px;
+    list-style: none;
+
+
+  }
+
+  .matches {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    row-gap: 16px;
+
+
+ }
+
+
+ /* FOOTER STYLES */
+ footer {
+  text-align: ;
+  color: white;
+  background-color: black;
+  width:100% ;
+}
+
+.goal {
+  display: inline-block;
+  font-size: 22px;
+  margin: 24px auto;
+}
+
+
+.policy {
+
+  font-size: 14px;
+  width: 80%;
+  min-height: 100% ;
+  margin: 24px auto;
+  display:flex;
+  flex-direction:column;
+}
+.policy a {
+  margin-top: 10px;
+  flex: 1;
+  color: white;
+}
+
+.contact-us {
+  margin-top: 10px;
+  display: block;
+  flex: 1;
+}
+
+  }
+
+
+
+/*********#################################################################################################################################**********/
+
+  /*-------------------------------------------- MEDIA QUERY FOR MEDIUM DEVICE( >= 576px and <=992px) */
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+
+
+    .common  {
+      max-width: 734px;
+      color: white;
+      background-color: black;
+      padding: 58px 17px 0px 76px;
+      margin: 50px 50px 70px;
+      border-radius: 5px ;
+
+  }
+  header {
+    width: 316px;
+    margin-top:61px ;
+  }
+  h1 {
+    line-height: 50px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  p {
+    line-height: 24px;
+    width: 316px;
+    font-weight: 400px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  button.watch {
+    border: none;
+    border-radius: 5px;
+    width: 161px;
+    height: 48px;
+    margin-bottom: 61px;
+
+}
+.marcelo img{
+  width: 323px;
+  height: 100%;
+  }
+/* End of header styles
+
+-----------------------------------------
+
+Bottom section styles */
+
+ section.bottom {
+  margin-bottom: 50px;
+  background-color: white;
+  padding: 0px;
+  flex-direction: column;
+  height: auto;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: ;
+    border-radius: 10px;
+    padding:0;
+    width: 100%;
+    height:100%;
+    margin-bottom: 20px;
+    background-color: inherit;
+ }
+ ul {
+  padding:0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+
+}
+  li {
+    padding: 17px 19px;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 1px solid lightgrey;
+    width:230px ;
+  }
+  .matches {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: ;
+    row-gap:;
+    column-gap:02px;
+
+ }
+ .play-cards {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  position: relative;
+  color: black;
+  background-color: white;
+  min-width: 348px;
+  display: flex;
+  flex-direction: column;
+}
+
+ .matches .play-cards:nth-child(9) {
+  display: none;
+ }
+
+ .view-all {
+  margin-bottom: 69px;
+  display: show;
+ }
+ .view-all button {
+  color: white;
+  border: none;
+  border-radius: 5x;
+  width: 131px;
+  background-color: #DD0000;
+  font-size: 20px;
+  padding: 12px 29px;
+ }
+
+
+ footer {
+  width: 100%;
+ }
+  }
